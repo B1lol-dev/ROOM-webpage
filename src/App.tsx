@@ -8,6 +8,7 @@ import { Testimonals } from "./components/Testimonals";
 import { Services } from "./components/Services";
 import { Gallery } from "./components/Gallery";
 import { Trial } from "./components/Trial";
+import { Footer } from "./components/defaults/Footer";
 
 // assets
 import carousel_1 from "./assets/carousel/carousel_1.png";
@@ -31,6 +32,7 @@ function App() {
         <Gallery />
         <Trial />
       </main>
+      <Footer />
     </div>
   );
 }
