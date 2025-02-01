@@ -1,3 +1,4 @@
+import { Companies } from "./components/Companies";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Products } from "./components/Products";
@@ -9,6 +10,7 @@ function App() {
       <main>
         <Hero />
         <Products />
+        <Companies />
       </main>
     </div>
   );

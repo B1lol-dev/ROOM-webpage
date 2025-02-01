@@ -7,6 +7,7 @@ button {
 
 @theme {
   --color-r-gray: #aaaaaa;
+  --color-r-darkgray: #4a4a4a;
   --color-r-black: #1a1a1a;
 }
 
