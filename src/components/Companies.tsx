@@ -57,7 +57,10 @@ export const Companies = () => {
 
         <div className="grid grid-cols-6 mt-32 gap-x-24 gap-y-14 max-xl:gap-10 max-lg:gap-7 max-md:grid-cols-3 max-md:gap-10 max-md:mt-18 max-[350px]:grid-cols-2!">
           {brands.map((brand) => (
-            <div className="flex justify-center items-center max-w-24 w-full max-h-[60px] h-full">
+            <div
+              className="flex justify-center items-center max-w-24 w-full max-h-[60px] h-full"
+              key={uuidv4()}
+            >
               <img
                 src={brand}
                 alt="brand"
