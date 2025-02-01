@@ -5,6 +5,8 @@ import { Hero } from "./components/Hero";
 import { Products } from "./components/Products";
 import { Qualities } from "./components/Qualities";
 import { Testimonals } from "./components/Testimonals";
+import { Services } from "./components/Services";
+import { Gallery } from "./components/Gallery";
 
 // assets
 import carousel_1 from "./assets/carousel/carousel_1.png";
@@ -24,6 +26,8 @@ function App() {
         <Carousel images={carouselImages} />
         <Qualities />
         <Testimonals />
+        <Services />
+        <Gallery />
       </main>
     </div>
   );
