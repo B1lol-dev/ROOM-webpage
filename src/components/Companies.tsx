@@ -48,14 +48,14 @@ export const Companies = () => {
   return (
     <section className="mt-[210px] max-lg:mt-28">
       <Container classes="text-r-black flex flex-col items-center">
-        <h1 className="text-center text-5xl/[3rem]">
+        <h1 className="text-center text-5xl/[3rem] max-xl:text-4xl max-md:text-3xl max-sm:text-2xl">
           The world's leading brands choose ROOM.
         </h1>
-        <p className="text-r-darkgray text-center text-2xl/[2.25rem] mt-[27px]">
+        <p className="text-r-darkgray text-center text-2xl/[2.25rem] mt-[27px] max-sm:text-xl">
           Over 3,000 and counting.
         </p>
 
-        <div className="grid grid-cols-6 mt-32 gap-x-24 gap-y-14">
+        <div className="grid grid-cols-6 mt-32 gap-x-24 gap-y-14 max-xl:gap-10 max-lg:gap-7 max-md:grid-cols-3 max-md:gap-10 max-md:mt-18 max-[350px]:grid-cols-2!">
           {brands.map((brand) => (
             <div className="flex justify-center items-center max-w-24 w-full max-h-[60px] h-full">
               <img

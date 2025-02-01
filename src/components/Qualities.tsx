@@ -29,16 +29,18 @@ export const Qualities = () => {
   ];
 
   return (
-    <section className="mt-20">
+    <section className="mt-20 max-lg:mt-28">
       <Container classes="flex flex-col items-center">
         <div>
-          <h1 className="text-left max-w-6xl text-5xl text-r-black">
+          <h1 className="text-left max-w-6xl text-5xl text-r-black max-xl:text-4xl max-lg:text-3xl max-md:text-center max-md:text-2xl max-md:max-w-xl max-sm:text-xl max-sm:max-w-sm max-[450px]:max-w-xs!">
             Our simple and seamless modular products allow teams to shape and
             then reshape their work environment with ease.
           </h1>
-          <p className="uppercase text-r-green mt-6">GET IN TOUCH</p>
+          <p className="uppercase text-r-green mt-6 max-md:text-center">
+            GET IN TOUCH
+          </p>
         </div>
-        <div className="flex gap-10 mt-11 justify-center">
+        <div className="flex gap-10 mt-11 justify-center max-md:flex-col max-md:gap-15">
           {qualities.map((quality) => (
             <QualityCard
               img={quality.img}

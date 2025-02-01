@@ -18,7 +18,7 @@ export const Carousel = ({ images }: { images: string[] }) => {
   const carouselRef = useRef<HTMLDivElement>(null);
 
   return (
-    <section className="mt-[190px]">
+    <section className="mt-[190px] max-lg:mt-28">
       <Container classes="flex flex-col items-center gap-6">
         <div className="relative flex flex-col justify-center">
           <div
