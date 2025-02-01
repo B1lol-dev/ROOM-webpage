@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 
 // components
-import { Container } from "./defaults/Containert";
+import { Container } from "./defaults/Container";
 
 // assets
 import chevron_left from "../assets/chevron_left.svg";

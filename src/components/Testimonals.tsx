@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 
 // components
-import { Container } from "./defaults/Containert";
+import { Container } from "./defaults/Container";
 import { TestimonalCard } from "./cards/TestimonalCard";
 
 // assets

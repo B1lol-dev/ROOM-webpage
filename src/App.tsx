@@ -1,7 +1,7 @@
+import { Header } from "./components/defaults/Header";
+import { Hero } from "./components/Hero";
 import { Carousel } from "./components/Carousel";
 import { Companies } from "./components/Companies";
-import { Header } from "./components/Header";
-import { Hero } from "./components/Hero";
 import { Products } from "./components/Products";
 import { Qualities } from "./components/Qualities";
 import { Testimonals } from "./components/Testimonals";

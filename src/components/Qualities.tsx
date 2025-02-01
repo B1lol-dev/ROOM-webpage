@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from "uuid";
 
 // components
 import { QualityCard } from "./cards/QualityCard";
-import { Container } from "./defaults/Containert";
+import { Container } from "./defaults/Container";
 
 // assets
 import quality_1 from "../assets/qualities/quality_1.svg";

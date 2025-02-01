@@ -1,4 +1,4 @@
-import { Container } from "./defaults/Containert";
+import { Container } from "./defaults/Container";
 
 import hero_img from "../assets/hero_img.png";
 

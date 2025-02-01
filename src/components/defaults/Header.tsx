@@ -2,13 +2,13 @@ import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 
 // components
-import { Container } from "./defaults/Containert";
+import { Container } from "./Container";
 
 // assets
-import chevron_bottom from "../assets/chevron_bottom.svg";
-import logo from "../assets/logo.svg";
-import location_icon from "../assets/location_icon.svg";
-import cart_icon from "../assets/cart_icon.svg";
+import chevron_bottom from "../../assets/chevron_bottom.svg";
+import logo from "../../assets/logo.svg";
+import location_icon from "../../assets/location_icon.svg";
+import cart_icon from "../../assets/cart_icon.svg";
 
 export const Header = () => {
   const navLinks = ["Products", "Explore", "Shop"];

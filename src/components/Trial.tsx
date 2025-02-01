@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 
 // components
-import { Container } from "./defaults/Containert";
+import { Container } from "./defaults/Container";
 
 // assets
 import trial_1 from "../assets/trial/trial_1.svg";
