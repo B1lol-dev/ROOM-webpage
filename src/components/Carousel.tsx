@@ -74,7 +74,7 @@ export const Carousel = ({ images }: { images: string[] }) => {
         </div>
 
         <div className="flex gap-3 mt-4">
-          {imgDots.map((dot, index) => (
+          {imgDots.map((_, index) => (
             <button
               type="button"
               className={`h-3 w-3 rounded-full ${
