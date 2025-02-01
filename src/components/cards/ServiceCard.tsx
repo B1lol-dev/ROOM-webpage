@@ -7,7 +7,11 @@ interface IServiceCard {
 
 export const ServiceCard = ({ img, title, body, align }: IServiceCard) => {
   return (
-    <div className="flex justify-between items-center gap-24">
+    <div
+      className={`flex justify-between items-center gap-24 ${
+        align !== "left" ? "max-xl:flex-col-reverse" : "max-xl:flex-col"
+      }`}
+    >
       <img
         src={img}
         alt={title}

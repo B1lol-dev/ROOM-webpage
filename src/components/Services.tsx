@@ -32,15 +32,15 @@ export const Services = () => {
   ];
 
   return (
-    <section className="mt-60">
+    <section className="mt-60 max-lg:mt-28">
       <Container classes="flex flex-col items-center">
         <div>
-          <h1 className="text-r-gray text-5xl max-w-4xl">
+          <h1 className="text-r-gray text-5xl max-w-4xl max-xl:text-3xl max-lg:text-2xl max-lg:text-center max-lg:max-w-2xl max-sm:text-xl max-sm:max-w-md">
             We take a human approach to a business-to-business industry,
             breaking the boundaries between corporate and personal, and
             rethinking every step of the user experience along the way.
           </h1>
-          <h2 className="text-r-black text-5xl mt-6">
+          <h2 className="text-r-black text-5xl mt-6 max-xl:text-3xl max-lg:text-2xl max-lg:text-center max-sm:text-xl">
             We make work, work for you.
           </h2>
         </div>

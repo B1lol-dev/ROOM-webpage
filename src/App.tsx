@@ -7,6 +7,7 @@ import { Qualities } from "./components/Qualities";
 import { Testimonals } from "./components/Testimonals";
 import { Services } from "./components/Services";
 import { Gallery } from "./components/Gallery";
+import { Trial } from "./components/Trial";
 
 // assets
 import carousel_1 from "./assets/carousel/carousel_1.png";
@@ -28,6 +29,7 @@ function App() {
         <Testimonals />
         <Services />
         <Gallery />
+        <Trial />
       </main>
     </div>
   );

@@ -29,7 +29,7 @@ export const Qualities = () => {
   ];
 
   return (
-    <section className="mt-20 max-lg:mt-28">
+    <section className="mt-20">
       <Container classes="flex flex-col items-center">
         <div>
           <h1 className="text-left max-w-6xl text-5xl text-r-black max-xl:text-4xl max-lg:text-3xl max-md:text-center max-md:text-2xl max-md:max-w-xl max-sm:text-xl max-sm:max-w-sm max-[450px]:max-w-xs!">
