@@ -3,6 +3,7 @@ import { Companies } from "./components/Companies";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Products } from "./components/Products";
+import { Qualities } from "./components/Qualities";
 
 // assets
 import carousel_1 from "./assets/carousel/carousel_1.png";
@@ -20,6 +21,7 @@ function App() {
         <Products />
         <Companies />
         <Carousel images={carouselImages} />
+        <Qualities />
       </main>
     </div>
   );

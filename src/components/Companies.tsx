@@ -46,7 +46,7 @@ export const Companies = () => {
   ];
 
   return (
-    <section className="mt-[210px]">
+    <section className="mt-[210px] max-lg:mt-28">
       <Container classes="text-r-black flex flex-col items-center">
         <h1 className="text-center text-5xl/[3rem]">
           The world's leading brands choose ROOM.

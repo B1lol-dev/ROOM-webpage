@@ -21,7 +21,7 @@ export const Header = () => {
           <a href="#">
             <img src={logo} alt="ROOM" />
           </a>
-          <ul className="flex gap-30">
+          <ul className="flex gap-30 max-lg:gap-20 max-md:gap-10 max-sm:hidden">
             {navLinks.map((link) => {
               return (
                 <li key={uuidv4()} className="uppercase text-xs">
@@ -30,12 +30,17 @@ export const Header = () => {
               );
             })}
           </ul>
-          <div className="flex gap-2.5">
-            <a href="#" className="flex gap-2.5 items-center px-5">
+          <div className="flex gap-2.5 max-[400px]:gap-1">
+            <a
+              href="#"
+              className="flex gap-2.5 items-center px-5 max-[400px]:px-2"
+            >
               <img src={location_icon} alt="location" />
-              <h4 className="uppercase text-center text-xs">Showrooms</h4>
+              <h4 className="uppercase text-center text-xs max-[400px]:hidden">
+                Showrooms
+              </h4>
             </a>
-            <a href="#" className="px-5">
+            <a href="#" className="px-5 max-[400px]:px-2">
               <img src={cart_icon} alt="cart" />
             </a>
           </div>
@@ -56,10 +61,10 @@ function SubHeader({ phoneNumber = 6467913726 }) {
   const langs = ["us", "ru"];
 
   return (
-    <div className="bg-gray-100 py-4">
+    <div className="bg-gray-100 py-4 max-[400px]:text-sm">
       <Container classes="flex">
         <div className="flex ml-auto gap-6 text-r-gray items-center">
-          <h3 className="uppercase">Contact Sales</h3>
+          <h3 className="uppercase max-[400px]:hidden">Contact Sales</h3>
           <a href={`tel:+${phoneNumber}`} className="uppercase">
             TEL {formattedNumber}
           </a>

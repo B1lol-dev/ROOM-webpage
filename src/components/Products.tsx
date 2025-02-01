@@ -31,9 +31,9 @@ export const Products = () => {
   ];
 
   return (
-    <section className="mt-[210px]">
+    <section className="mt-[210px] max-lg:mt-28">
       <Container>
-        <div className="grid grid-cols-2 justify-center gap-y-6 gap-x-8 pb-8">
+        <div className="grid grid-cols-2 justify-center gap-y-6 gap-x-8 pb-8 max-md:grid-cols-1">
           {productList.map((product) => (
             <ProductCard
               img={product.img}
