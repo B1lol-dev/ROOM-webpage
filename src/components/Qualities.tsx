@@ -22,7 +22,7 @@ export const Qualities = () => {
       body: "Thoughtful design ensures simple installation in a few hours or less. And, because our products are safety ensured, you'll never have to spend time or money chasing after permits, contractors, and more.",
     },
     {
-      img: quality_1,
+      img: quality_3,
       title: "Flexible",
       body: "Unlike traditional construction, our purpose-built products were designed to adapt with your workspace and can easily be positioned in various places throughout your office, or to an entirely new location.",
     },
