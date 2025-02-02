@@ -7,6 +7,10 @@ button {
   cursor: pointer;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme {
   --color-r-gray: #aaaaaa;
   --color-r-darkgray: #4a4a4a;
