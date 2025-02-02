@@ -1,5 +1,3 @@
-import { useRef, useState } from "react";
-
 interface ICheckboxComponent {
   border_color: string;
   height: string | number;
